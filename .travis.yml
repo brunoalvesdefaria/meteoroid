@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+  - 6.9.1
+install:
+  - sudo curl https://install.meteor.com/ | /bin/sh
+  - npm install -g coffee-script spacejam@1.6.2-rc.1
+script:
+  - spacejam test-packages --driver-package=practicalmeteor:mocha-console-runner ./

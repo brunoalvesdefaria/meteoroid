@@ -1,0 +1,31 @@
+{
+  "name": "meteoroid",
+  "version": "1.0.0",
+  "description": "Meteor form components for Blaze",
+  "main": "src/main.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "meteor test-packages ./ --once --driver-package dispatch:mocha-phantomjs",
+    "test-manual": "meteor test-packages ./ --once --driver-package practicalmeteor:mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunoalvesdefaria/meteoroid.git"
+  },
+  "keywords": [
+    "meteoroid",
+    "meteor",
+    "blaze",
+    "form",
+    "components",
+    "schema",
+    "validation"
+  ],
+  "author": "Bruno Alves de Faria",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brunoalvesdefaria/meteoroid/issues"
+  },
+  "homepage": "https://github.com/brunoalvesdefaria/meteoroid#readme"
+}

@@ -1,2 +1,2 @@
 # meteoroid
-Meteor form components for blaze
+Meteor form components for Blaze

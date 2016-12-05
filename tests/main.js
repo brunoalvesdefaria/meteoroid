@@ -1,8 +1,7 @@
 import { name } from 'meteor/brunoalvesdefaria:meteoroid';
+import { describe, it } from 'meteor/practicalmeteor:mocha';
 import { chai } from 'meteor/practicalmeteor:chai';
 
-describe('Mocha', function () {
-  it('Meteoroid name test', function () {
-    chai.assert.equal(name, 'meteoroid');
-  });
+describe('Mocha', () => {
+  it('Meteoroid name test', () => chai.assert.equal(name, 'meteoroid'));
 });

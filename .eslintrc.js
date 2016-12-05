@@ -175,7 +175,9 @@ module.exports = {
     'no-warning-comments': 'error',
     'no-whitespace-before-property': 'error',
     'no-with': 'error',
-    'object-curly-newline': 'error',
+    'object-curly-newline': ['error', {
+        'minProperties': 2
+    }],
     'object-curly-spacing': [
       'error',
       'always'
@@ -194,7 +196,7 @@ module.exports = {
     'prefer-rest-params': 'error',
     'prefer-spread': 'error',
     'prefer-template': 'error',
-    'quote-props': 'error',
+    'quote-props': ['error', 'as-needed'],
     'quotes': [
       'error',
       'single'

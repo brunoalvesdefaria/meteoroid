@@ -1,1 +1,1 @@
-export const name = 'meteoroid';
+export const Meteoroid = { name: 'meteoroid' };

@@ -6,19 +6,19 @@ Package.describe({
   documentation: 'README.md'
 });
 
-Package.onUse(function(api) {
+Package.onUse(function (api) {
   api.versionsFrom('1.4.2.3');
   api.use('ecmascript');
   api.mainModule('src/main.js');
 });
 
-Package.onTest(function(api) {
+Package.onTest(function (api) {
   api.use([
     'ecmascript',
     'practicalmeteor:mocha',
     'practicalmeteor:chai',
     'brunoalvesdefaria:meteoroid'
-  ], ['client', 'server']);
+  ], 'client');
 
   api.addFiles('tests/main.js', 'client');
 });

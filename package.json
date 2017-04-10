@@ -24,11 +24,11 @@
   "main": "package.js",
   "dependencies": {},
   "devDependencies": {
-    "eslint": "^3.11.1"
+    "eslint": "^3.12.2"
   },
   "scripts": {
     "test": "npm run lint && spacejam test-packages ./ --driver-package=practicalmeteor:mocha-console-runner",
-    "test-manual": "meteor test-packages ./ --driver-package practicalmeteor:mocha",
+    "test-watch": "meteor test-packages ./ --driver-package practicalmeteor:mocha",
     "lint": "eslint src/**.js tests/**.js"
   }
 }
